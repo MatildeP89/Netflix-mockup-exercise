@@ -1,0 +1,50 @@
+body{background-color: #000000}
+img.logo{width: 90px;}
+
+img.profilepic {width: 25px; height: 25px;}
+
+ul.profilemenu {background-color: rgb(65, 63, 63);
+border: 1px solid rgb(231, 56, 56);}
+
+a.changeprofile:hover {background-color: black;}
+
+a.profilepicsrow:hover {background-color: black;}
+button.menubuttons{color: gray;
+border: 1px solid rgb(218, 216, 216);
+height: 25px;
+width: 40px;
+}
+
+div.rightside{
+padding-right: 24px;}
+
+div.leftside{padding-left: 20px;}
+
+@media (min-width: 730px) and (max-width:740px) {
+    section{display: flex; justify-content: space-evenly;}
+}
+
+main{min-height: 100vh;}
+
+div.footerlinks{font-size: 12px;}
+
+button.footerbtn{width: 100px;}
+
+footer {margin-top: 100px;}
+
+div.card{transition: transform 0.5s;
+border: none;
+}
+
+div.card:hover {transform: scale(1.1);
+    z-index: 10;    
+}
+
+@media (max-width: 915px) {
+    .carousel-inner{height: 80px;}
+.card{margin-top: 10px;}
+}
+
+.carousel-inner{height: 170px;}
+.card{margin-top: 10px;}
+
