@@ -1,0 +1,67 @@
+body{background-color: #000000}
+img.logo{width: 90px;}
+
+img.profilepic {width: 25px; height: 25px;}
+
+ul.profilemenu {background-color: rgb(65, 63, 63);
+border: 1px solid rgb(231, 56, 56);}
+
+a.changeprofile:hover {background-color: black;}
+
+a.profilepicsrow:hover {background-color: black;}
+button.menubuttons{color: gray;
+border: 1px solid rgb(218, 216, 216);
+height: 25px;
+width: 40px;
+}
+
+
+div.rightside{
+padding-right: 24px;}
+
+div.leftside{padding-left: 20px;}
+
+@media (min-width: 730px) and (max-width:740px) {
+    section{display: flex; justify-content: space-evenly;}
+}
+
+main{min-height: 100vh;}
+
+div.footerlinks{font-size: 12px;}
+
+button.footerbtn{width: 100px;}
+
+footer {margin-top: 100px;}
+
+div.card{transition: transform 0.5s;
+border: none;
+}
+
+div.card:hover {transform: scale(1.1);
+    z-index: 10;    
+}
+
+@media (max-width: 915px) {
+    .carousel-inner{height: 80px;}
+.card{margin-top: 10px;}
+}
+
+.carousel-inner{height: 170px;}
+.card{margin-top: 10px;}
+
+button span.carousel-control-prev-icon, button span.carousel-control-next-icon {background-color:  rgb(243, 36, 36); border-radius: 40%; padding: 10%; box-shadow: 0 0 20px 10px rgba(26, 188, 156, 0.7);}
+
+button span.carousel-control-prev-icon:hover, button span.carousel-control-next-icon:hover {animation: pulsate 2s ease-in-out;}
+
+@keyframes pulsate {
+    0%, 100% {
+      box-shadow: 0 0 5px 5px rgba(26, 188, 156, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 5px 5px rgba(26, 188, 156, 1);
+    }
+  }
+
+
+button.dropdown-toggle:hover{color: red !important; animation: pulsate 2s ease-in-out;}
+button.bi-bell-fill:hover, a.nav-link:hover, div.footerlinks a:hover, button.kids:hover, i.bi-search:hover {color: red !important;}
